@@ -1,0 +1,195 @@
+:root {
+  --accent-color: #2196f3;
+  --dark-color: #000000;
+  --semidark-color: #212121;
+  --background-color: #2f303a;
+  --main-color: #757575;
+  --semilight-color: #f5f4fa;
+  --light-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.hero {
+  background-color: var(--background-color);
+}
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 363;
+  letter-spacing: 0.06em;
+  color: var(--light-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+.logo-part-one {
+  color: var(--accent-color);
+}
+.logo-part-two {
+  color: var(--dark-color);
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: var(--semidark-color);
+  text-decoration: none;
+}
+
+.menu-link:focus,
+.menu-link:hover,
+.menu-link:active {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+.contacts-list {
+  font-style: normal;
+}
+.contacts-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.contacts-link:focus,
+.contacts-link:hover,
+.contacts-link:active {
+  color: var(--accent-color);
+}
+.portfolio-link {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.portfolio-background {
+  background-color: var(--accent-color);
+}
+/* Заголовки */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--semidark-color);
+}
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--semidark-color);
+}
+
+.white-title {
+  color: var(--light-color);
+}
+.background-title {
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 188;
+  letter-spacing: 0.03em;
+  color: var(--semidark-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--semidark-color);
+}
+
+/* Описание */
+.section-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.name-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 188;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.contacts-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: var(--light-color);
+}
+.portfolio-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1, 556;
+  letter-spacing: 0.03em;
+  color: var(--light-color);
+}
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.footer {
+  background: var(--background-color);
+}
+
+/* Кнопки */
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--accent-color);
+}
+
+.button-text {
+  color: var(--light-color);
+}
+
+.portfoliobtn {
+  background-color: var(--semilight-color);
+}
+.portfoliobtn-text {
+  color: var(--semidark-color);
+}
+.portfoliobtn:hover,
+.portfoliobtn:focus {
+  background-color: var(--accent-color);
+}
+.portfoliobtn-text:hover,
+.portfoliobtn-text:focus,
+.portfoliobtn-text:active {
+  color: var(--light-color);
+}
