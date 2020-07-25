@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --accent-color: #2196f3;
   --dark-color: #000000;
@@ -14,18 +24,41 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+.container {
+  width: 1200px;
+  padding-left: 15 px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-header {
+  padding: 30px 0 30px 30px;
+}
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .hero {
   background-color: var(--background-color);
+}
+.boxhero {
+  width: 1600px;
+  height: 600px;
 }
 .page-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
+  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--light-color);
+  margin: 0 0 30px;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
+  margin-right: 50px;
 }
 .logo-part-one {
   color: var(--accent-color);
@@ -33,6 +66,26 @@ body {
 .logo-part-two {
   color: var(--dark-color);
 }
+.e-mail-link {
+  margin-right: 30px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.menu-list {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/*.menu-item {
+  outline: 2px solid tomato;
+}*/
+
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -50,6 +103,8 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .contacts-list {
@@ -88,6 +143,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--semidark-color);
+  margin: 0 0 50px;
 }
 .advantage-title {
   font-weight: 700;
@@ -96,6 +152,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--semidark-color);
+  margin: 0 0 10px;
 }
 
 .white-title {
@@ -111,6 +168,7 @@ body {
   line-height: 1, 188;
   letter-spacing: 0.03em;
   color: var(--semidark-color);
+  margin: 0 0 10px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -168,14 +226,18 @@ body {
 
 /* Кнопки */
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   text-align: center;
   background-color: var(--accent-color);
-}
-
-.button-text {
   color: var(--light-color);
+  padding: 10px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
 }
 
 .portfoliobtn {
