@@ -223,6 +223,19 @@ body {
 .footer {
   background: var(--background-color);
 }
+.social-list {
+  display: flex;
+}
+.social-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/*
+.social-item:focus,
+.social-item:hover,
+.social-item:active {
+color: var(--accent-color);
+} */
 
 /* Кнопки */
 .btn {
