@@ -47,7 +47,35 @@ body {
 }
 .boxhero {
   width: 1600px;
-  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.advantage-section {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
+}
+
+.product-section {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
+}
+.team-section {
+  width: 1600px;
+  padding: 94px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--backround-light);
+}
+.clients-section {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
 }
 .page-title {
   font-weight: 900;
@@ -146,9 +174,7 @@ body {
 /* Боксы */
 .advantage-box {
   width: 270px;
-  height: 120px;
   padding: 25px 100px;
-  margin-top: 94px;
   margin-bottom: 30px;
   background-color: var(--backround-light);
 }
@@ -165,6 +191,13 @@ body {
   align-items: center;
 }
 
+.teammembers-box {
+  width: 274px;
+  height: 422px;
+  border: 1px solid var(--main-color);
+  border-radius: 3px;
+}
+
 /* Заголовки */
 
 .section-title {
@@ -174,7 +207,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--semidark-color);
-  margin: 94px 0 50px;
+  margin: 0 50px;
 }
 .advantage-title {
   font-weight: 700;
@@ -200,6 +233,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--semidark-color);
   margin: 0 0 10px;
+  text-align: center;
+  margin-top: 30px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -225,7 +260,10 @@ body {
   line-height: 1, 188;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  text-align: center;
+  margin-top: 10px;
 }
+
 .contacts-description {
   font-style: normal;
   font-weight: normal;
@@ -256,11 +294,14 @@ body {
 }
 .social-list {
   display: flex;
+  justify-content: center;
 }
 .social-item:not(:last-child) {
   margin-right: 30px;
 }
-
+.social-item {
+  margin-top: 16px;
+}
 /*
 .social-item:focus,
 .social-item:hover,
