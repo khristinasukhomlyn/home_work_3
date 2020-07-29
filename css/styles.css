@@ -48,6 +48,11 @@ body {
   justify-content: center;
 }
 
+.footer-box {
+  width: calc((100% - 30px) / 2);
+  /* justify-content: space-between;*/
+}
+
 .menu-list {
   display: flex;
 }
@@ -167,7 +172,6 @@ body {
 
 .clients-box {
   width: 170px;
-  height: 90px;
   padding: 19px 65px;
   background-color: var(--light-color);
   border: 1px solid var(--main-color);
@@ -177,12 +181,17 @@ body {
 
 .teammembers-box {
   width: 274px;
-  height: 422px;
   border: 1px solid var(--main-color);
   border-radius: 3px;
 }
 .works-box {
   width: 370px;
+}
+.join-us-box {
+  width: 206px;
+}
+.sign-up-box {
+  width: 570px;
 }
 
 /* Заголовки */
@@ -229,6 +238,9 @@ body {
   text-transform: uppercase;
   color: var(--semidark-color);
   margin: 0 0 10px;
+}
+.inline-block {
+  display: inline-block;
 }
 
 .white-title {
@@ -307,6 +319,10 @@ body {
 .social-item {
   margin-top: 16px;
 }
+.social-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
 /*
 .social-item:focus,
 .social-item:hover,
@@ -315,6 +331,7 @@ color: var(--accent-color);
 } */
 
 /* Кнопки */
+
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -337,9 +354,10 @@ color: var(--accent-color);
   border: 1px solid var(--semilight-color);
   border-radius: 4px;
   padding: 6px 22px;
-
   margin-right: 8px;
+  display: inline-block;
 }
+
 .portfoliobtn-text {
   color: var(--semidark-color);
   font-weight: 500;
