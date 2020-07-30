@@ -203,6 +203,9 @@ body {
   border-radius: 3px;
   margin-bottom: 30px;
 }
+.works-description {
+  padding: 20px 24px;
+}
 .join-us-box {
   width: 206px;
 }
