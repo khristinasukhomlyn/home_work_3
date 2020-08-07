@@ -98,7 +98,9 @@ body {
   background-color: var(--background-color);
   padding: 60 0 0 0;
 }
-
+.footer-width {
+  width: 1200px;
+}
 .items-wrap {
   flex-wrap: wrap;
 }
@@ -208,9 +210,14 @@ body {
 }
 .join-us-box {
   width: 206px;
+  margin-top: 72px;
+  margin-bottom: 100px;
+  margin-left: 68px;
 }
 .sign-up-box {
   width: 570px;
+  margin-top: 72px;
+  margin-bottom: 100px;
 }
 
 /* Заголовки */
@@ -341,12 +348,16 @@ body {
   margin-top: 16px;
   margin-bottom: 23px;
 }
-.social-footer:not(:last-child) {
+.social-footer {
   margin-right: 10px;
+  margin-top: 21px;
 }
 
 .social-footer-item {
   margin: 20px;
+}
+.adress-margin {
+  margin-top: 15px;
 }
 
 /*
