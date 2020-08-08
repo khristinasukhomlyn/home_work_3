@@ -375,6 +375,7 @@ color: var(--accent-color);
   line-height: 1, 875;
   letter-spacing: 0.06em;
   display: flex;
+  height: 50px;
   align-items: center;
   text-align: center;
   background-color: var(--accent-color);
@@ -382,10 +383,29 @@ color: var(--accent-color);
   padding: 10px 32px;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
+  margin-left: 20px;
   /* display: inline-block; */
   /* margin: 350px 200px 700px 200 px; */
 }
-
+.email-btn {
+  width: 357px;
+  height: 50px;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.emailbtn-text {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 25;
+  letter-spacing: 0.03em;
+}
+.galka {
+  margin-left: 10px;
+}
 .portfoliobtn {
   background-color: var(--semilight-color);
   border: 1px solid var(--semilight-color);
