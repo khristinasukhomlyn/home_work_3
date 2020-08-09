@@ -61,6 +61,9 @@ body {
 }
 .hero {
   background-color: var(--background-color);
+  width: 1600px;
+  height: 600px;
+  padding: 200px 450px;
 }
 /* секции */
 
@@ -386,6 +389,20 @@ color: var(--accent-color);
   margin-left: 20px;
   /* display: inline-block; */
   /* margin: 350px 200px 700px 200 px; */
+}
+.btn-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  display: flex;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-left: 250px;
 }
 .email-btn {
   width: 357px;
